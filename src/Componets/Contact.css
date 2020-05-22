@@ -1,0 +1,38 @@
+.container {
+    font-family:'Nunito';
+    
+    width: 70vmin;
+    background-color: rgb(41, 182, 252);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+
+    
+}
+input[type=text], select, textarea {
+   
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=email], select, textarea {
+  
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    
+    color: white;
+    background-color: #fa7203;
+    border: none;
+
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #fa9703;
+    cursor: pointer;
+   
+  }
+  
