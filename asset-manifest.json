@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfo/static/css/main.aaa27dfa.chunk.css",
+    "main.css": "/portfo/static/css/main.0398dc86.chunk.css",
     "main.js": "/portfo/static/js/main.023542e4.chunk.js",
     "main.js.map": "/portfo/static/js/main.023542e4.chunk.js.map",
     "runtime-main.js": "/portfo/static/js/runtime-main.f6183858.js",
@@ -9,10 +9,10 @@
     "static/js/2.a59e2606.chunk.js": "/portfo/static/js/2.a59e2606.chunk.js",
     "static/js/2.a59e2606.chunk.js.map": "/portfo/static/js/2.a59e2606.chunk.js.map",
     "index.html": "/portfo/index.html",
-    "precache-manifest.211de3c0b83b5fe0ee4cdbc7732a2110.js": "/portfo/precache-manifest.211de3c0b83b5fe0ee4cdbc7732a2110.js",
+    "precache-manifest.aa2f9f8e52b092b22c767b2d9045e834.js": "/portfo/precache-manifest.aa2f9f8e52b092b22c767b2d9045e834.js",
     "service-worker.js": "/portfo/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/portfo/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.aaa27dfa.chunk.css.map": "/portfo/static/css/main.aaa27dfa.chunk.css.map",
+    "static/css/main.0398dc86.chunk.css.map": "/portfo/static/css/main.0398dc86.chunk.css.map",
     "static/js/2.a59e2606.chunk.js.LICENSE.txt": "/portfo/static/js/2.a59e2606.chunk.js.LICENSE.txt",
     "static/media/Algo.jpg": "/portfo/static/media/Algo.e68a69a4.jpg",
     "static/media/CSS.png": "/portfo/static/media/CSS.4fe7dbaf.png",
@@ -52,7 +52,7 @@
     "static/js/runtime-main.f6183858.js",
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.a59e2606.chunk.js",
-    "static/css/main.aaa27dfa.chunk.css",
+    "static/css/main.0398dc86.chunk.css",
     "static/js/main.023542e4.chunk.js"
   ]
 }
