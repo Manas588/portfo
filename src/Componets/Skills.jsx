@@ -46,7 +46,7 @@ function Skills() {
       </div>
      <div className='mt6'
      style={{display:'flex',flexWrap:'wrap',flexDirection:'row',width:'70%',justifyContent:'space-evenly',height:'90%',alignItems:'center'}}>
-        {skills.map(skill=><img src={skill} alt='' className='pa3' style={{width:'150px'}}/>)}
+        {skills.map(skill=><img src={skill} alt='' className='pa3' style={{width:'20vmin'}}/>)}
      </div>
      
     

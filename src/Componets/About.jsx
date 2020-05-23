@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import {Link} from 'react-scroll';
 import arrow from './arrow.png';
-import cap from './cap.png';
+import thatsme from './thatsme.jpg';
 
 function About() {
   return (
@@ -45,13 +45,13 @@ function About() {
            </p>
             </div>
           </div>
-          <div className=' mv2 ' style={{width:'30vmin',}}>
-            <div className=' br4 grow pointer '  style={{justifySelf:'center', width:'30vmin',
+          <div className=' mv2 ' style={{width:'60vmin',}}>
+            <div className=' br4 pointer '  style={{justifySelf:'center', width:'60vmin',
              display:'flex',flexDirection:'column', justifyContent:'center',
              alignItems:'center'}} >
-              <img src={cap} alt='' className='mh1 bg-white br4' style={{border:'4px solid black', width:'20vmin',}}/>
+              <img src={thatsme} alt='' className='mh1 bg-white' style={{boxShadow:' 0 4px 8px 0 rgba(0, 0, 0, 0.568), 0 6px 20px 0 rgba(0, 0, 0, 0.568)', width:'70vmin',}}/>
               <p className='tc ph2 ml1 white pt1 ' style={{fontSize:'1.1em'}}>
-                <strong >B.E. Electronics</strong><br/>2019<br/>Vivekanad Education Society's Institue of Technology, Chembur
+                <strong >Yeah That's Me</strong>
               </p>
             </div>
           </div>

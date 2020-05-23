@@ -57,10 +57,10 @@ class Certifications extends React.Component {
                     <div style={{width:'100%',margin:'0 auto',position:'absolute',
                     top:'50%',transform: 'translateY(-50%)',display:'flex',flexDirection:'row',
                     flexWrap:'wrap' ,justifyContent:'space-evenly',alignContent:'center', fontSize:'3vmin'}}>
-                        <div className='grow pointer white certificate pa2 br3' onClick={()=>this.imageOpen('a')} ><img src={udemy}  alt='' width='40vmax'/><p><strong>The Complete Web Developer in 2020: Zero to Mastery</strong></p></div>
-                        <div className='grow pointer white certificate pa2 br3' onClick={()=>this.imageOpen('b')}><img src={udemy} alt='' width='40vmax'/><p><strong>Complete Python Developer in 2020: Zero to Mastery</strong></p></div>
-                        <div className='grow white pointer certificate pa2 br3' onClick={()=>this.imageOpen('c')}><img src={udemy} alt='' width='40vmax'/><p><strong>Complete Machine Learning and Data Science: Zero to Mastery</strong></p></div>
-                        <div className='grow white pointer certificate pa2 br3' onClick={()=>this.imageOpen('d')}><img src={udemy} alt='' width='40vmax'/><p><strong>Master the Coding Interview: Data Structures + Algorithms</strong></p></div>
+                        <div className=' pointer white certificate pa2 br3' onClick={()=>this.imageOpen('a')} ><img src={udemy}  alt='' width='40vmax'/><p><strong>The Complete Web Developer in 2020: Zero to Mastery</strong></p><p className=' blue link dim'>View Certificate</p></div>
+                        <div className=' pointer white certificate pa2 br3' onClick={()=>this.imageOpen('b')}><img src={udemy} alt='' width='40vmax'/><p><strong>Complete Python Developer in 2020: Zero to Mastery</strong></p><p className='blue link dim'>View Certificate</p></div>
+                        <div className=' white pointer certificate pa2 br3' onClick={()=>this.imageOpen('c')}><img src={udemy} alt='' width='40vmax'/><p><strong>Complete Machine Learning and Data Science: Zero to Mastery</strong></p><p className='blue link dim'>View Certificate</p></div>
+                        <div className=' white pointer certificate pa2 br3' onClick={()=>this.imageOpen('d')}><img src={udemy} alt='' width='40vmax'/><p><strong>Master the Coding Interview: Data Structures + Algorithms</strong></p><p className='blue link dim'>View Certificate</p></div>
                         
                     </div>
                 
@@ -71,7 +71,7 @@ class Certifications extends React.Component {
                 <div className="App about mt0" id='certifications'
                 style={{background:'#333', position:'relative',overflowY:'auto',fontFamily:'Nunito',display:'flex',flexDirection:'column',justifyContent:'center',
                alignItems:'center'}}>
-                    <div className='white pa3 pointer grow ' style={{fontSize:'3vw', position:"absolute",right:'1vw',top:'1vh'}} onClick={this.back}>x</div>
+                    <div className='white pa3 pointer grow ' style={{fontSize:'3vmax', position:"absolute",right:'1vw',top:'1vh'}} onClick={this.back}>x</div>
                     <div><img src={this.whichImage()} alt=''style={{width:'100vmin',justifySelf:'center',alignSelf:'center'}}/></div>
                 </div>
             );

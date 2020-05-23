@@ -3,7 +3,7 @@ import Nav from './Nav';
 import {Link} from 'react-scroll';
 import logo from '../logo.png';
 import arrow from './arrow.png';
-
+import ReactTypingEffect from 'react-typing-effect';
 import '../App.css';
 import 'react-particles-js';
 import Particles from 'react-particles-js';
@@ -313,21 +313,26 @@ const params= {
 }
 
 function Home({onclick}) {
+
   return (
     <div className="App home" id='home' style={{overflowY:'auto'}}>
 
       <Particles params= {params} className="particles"/>
         
-        <img src={logo} alt=''  class="shadow-5 grow br3 pointer dim" style={{height: '10vmin', width:'auto',position:'absolute', left:'1vw', top:'1vh'}}/>
+        <a href='https://docs.google.com/document/d/1Yz_Od0rMVS0eYofjwMGIdNH5jfaT3ehfjlfvdKcLmWc/edit?usp=sharing'><img src={logo} alt=''  class="shadow-5 grow br3 pointer dim" style={{height: '10vmin', width:'auto',position:'absolute', left:'1vw', top:'1vh'}}/></a>
       
       <Nav onclick= {onclick}/>
       <div style={{display: 'flex', flexDirection:'column', justifyContent:'center', height:'100%', alignItems:'center'}}>
         
-        <p href="#" class="typewrite mh5" data-period="2000" data-type='[ "Hellllooooo!"," I am Manas.", "I am a Web Developer,", "A Python Developer,","and a Machine Learning Enthusiast", "I Love to Develop :)" ]'>
-          <span class="wrap"></span>
-        </p>
+          <ReactTypingEffect
+          className='String'
+          text={["Hello....!", "I am Manas.","A Web Developer,","A Python Developer.","And A machine learning enthusiast.","I love to develop :)"]}
+          speed='100'
+          eraseDelay='800'
+          typingDelay='900'
+        />
         <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration= {1000}>      
-                <div class="shadow-1 grow mt6 pa0 dim pointer"style={{
+                <div className="shadow-1 grow mt6 pa0 dim pointer"style={{
                             width:'10vmin', height:'10vmin',borderRadius:'50%', background: 'rgb(58, 189, 255)'}} >
                   <img src={arrow} alt='' style={{width:'8vmin', height:'auto', transform:'rotate(180deg)'}}/>
                 </div>

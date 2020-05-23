@@ -4,13 +4,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.typewrite {
- 
+.String {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 5.5vmax;
   font-weight: 500;
   text-transform: uppercase;
   color:rgb(0, 0, 0);
-  text-decoration: none;}
+  text-decoration: none;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
