@@ -1,10 +1,12 @@
 import React from 'react';
 import '../App.css';
+// import menu from "./menu.png"
 
 import {Link} from 'react-scroll';
+
 function Nav({onclick}) {
   return (
-    <div className="App nav   pa0 ma0 " >
+    <div className="nav " id="nav">
     
         
         <Link
@@ -14,7 +16,7 @@ function Nav({onclick}) {
             smooth={true}
             offset={0}
             duration= {1000}
-        ><p className=' pointer link navitems shadow-5 pl2 ' onClick={onclick} style={{borderLeft:'0px'}}>About Me</p></Link>
+        ><p className=' pointer link navitems' onClick={onclick} style={{borderLeft:'0px'}}>About Me</p></Link>
         
         <Link
             activeClass="active"
@@ -23,7 +25,7 @@ function Nav({onclick}) {
             smooth={true}
             offset={0}
             duration= {1500}
-        ><p className=' pointer link navitems  shadow-5 ' onClick={onclick}>Projects</p></Link>
+        ><p className=' pointer link navitems' onClick={onclick}>Projects</p></Link>
         <Link
             activeClass="active"
             to="skills"
@@ -31,7 +33,7 @@ function Nav({onclick}) {
             smooth={true}
             offset={0}
             duration= {2000}
-        ><p className=' pointer link navitems shadow-5' onClick={onclick} >Skills</p></Link>
+        ><p className=' pointer link navitems' onClick={onclick} >Skills</p></Link>
         <Link
             activeClass="active"
             to="certifications"
@@ -39,7 +41,7 @@ function Nav({onclick}) {
             smooth={true}
             offset={0}
             duration= {2500}
-        ><p className=' pointer link navitems shadow-5' onClick={onclick} >Certifications</p></Link>
+        ><p className=' pointer link navitems' onClick={onclick} >Certifications</p></Link>
            <Link
             activeClass="active"
             to="contact11"
@@ -47,7 +49,7 @@ function Nav({onclick}) {
             smooth={true}
             offset={0}
             duration= {3000}
-        ><p className=' pointer link navitems shadow-5 pr2' onClick={onclick}>Contact</p></Link>
+        ><p className=' pointer link navitems' onClick={onclick}>Contact</p></Link>
 
      
     </div>

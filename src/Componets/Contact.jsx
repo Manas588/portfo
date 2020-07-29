@@ -23,7 +23,7 @@ function Contact() {
       <div className=' mt3 tr' style={{height:'30%', fontFamily:'Nunito'}} >
         <div  style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
         
-          <a href="mailto:mmk11122@gmail.com.com" ><img src={email} alt='email' height='50px' width='auto'/></a>
+          <a href="mailto:mmk11122@gmail.com" ><img src={email} alt='email' height='50px' width='auto'/></a>
           <p style={{fontSize:'3vh'}} className='tc ml3'>Email me</p>
         </div>
         <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
@@ -34,9 +34,9 @@ function Contact() {
       </div>
       <div style={{position:'absolute', bottom:'1vw',right:'14vw'}}>
         <p className='pa0 ma0'>
-          <a href='https://github.com/Manas588' className='ph1  dim'><img src={github} alt='github' width='30vw' height='auto'/></a>
-          <a href='https://www.linkedin.com/in/manas-kulkarni-093900162/' className='ph1 dim'><img src={linkedin} alt='linkedin' width='30vw' height='auto'/></a>
-          <a href='https://www.instagram.com/manas_kulkarni/?hl=en' className='ph1 dim'><img src={instagram} alt='insta' width='30vw' height='auto'/></a>
+          <a href='https://github.com/Manas588' target='_blank' className='ph1  dim'><img src={github} alt='github' width='30vw' height='auto'/></a>
+          <a href='https://www.linkedin.com/in/manas-kulkarni-093900162/' target='_blank' className='ph1 dim'><img src={linkedin} alt='linkedin' width='30vw' height='auto'/></a>
+          <a href='https://www.instagram.com/manas_kulkarni/?hl=en' target='_blank' className='ph1 dim'><img src={instagram} alt='insta' width='30vw' height='auto'/></a>
         </p>
       </div>
       <Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration= {3000}>      

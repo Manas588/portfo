@@ -13,10 +13,10 @@ import py from "./Skills/PY.png";
 import react from "./Skills/react.png";
 import skl from "./Skills/skl.png";
 import sql from "./Skills/sql.png";
-
+import jquery from "./Skills/jquery.png";
 
 function Skills() {
-  const skills = [html, css, js, py, react, express, npm, node, sql, skl, matlab];
+  const skills = [html, css, js, py, react, express, npm, node, sql, skl, matlab, jquery];
   return (
     <div className="App skills mt0" id='skills' style={{overflowY:'auto',position:'relative'}} >
       <div className='pv abouthead pv1' style={{position:'absolute', top:'0',width:'100%'}} >

@@ -7,6 +7,7 @@ import ReactTypingEffect from 'react-typing-effect';
 import '../App.css';
 import 'react-particles-js';
 import Particles from 'react-particles-js';
+import $ from "jquery";
 
 const params= {
   "absorbers": [],
@@ -311,6 +312,9 @@ const params= {
     "url": ""
   }
 }
+const slide = () => {
+  $("#nav").toggleClass("nav navout");
+}
 
 function Home({onclick}) {
 
@@ -319,9 +323,10 @@ function Home({onclick}) {
 
       <Particles params= {params} className="particles"/>
         
-        <a href='https://docs.google.com/document/d/1Yz_Od0rMVS0eYofjwMGIdNH5jfaT3ehfjlfvdKcLmWc/edit?usp=sharing'><img src={logo} alt=''  class="shadow-5 grow br3 pointer dim" style={{height: '10vmin', width:'auto',position:'absolute', left:'1vw', top:'1vh'}}/></a>
+        <a href='https://docs.google.com/document/d/1Yz_Od0rMVS0eYofjwMGIdNH5jfaT3ehfjlfvdKcLmWc/edit?usp=sharing'><img title="Resume" src={logo} alt=''  class="shadow-5 grow br3 pointer dim" style={{height: '10vmin', width:'auto',position:'absolute', left:'1vw', top:'1vh'}}/></a>
       
       <Nav onclick= {onclick}/>
+      <div className="menu" onClick={slide}/>
       <div style={{display: 'flex', flexDirection:'column', justifyContent:'center', height:'100%', alignItems:'center'}}>
         
           <ReactTypingEffect

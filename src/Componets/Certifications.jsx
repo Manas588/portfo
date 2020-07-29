@@ -7,6 +7,11 @@ import ML from './Certificates/ML.jpg';
 import Py from './Certificates/Py.jpg';
 import WD from './Certificates/WD.jpg';
 import udemy from './udemy-logo.png';
+import hr from './Certificates/hr.png';
+import fcc from './Certificates/fcc.png';
+import pybasic from './Certificates/pybasic.png';
+import jsbasic from './Certificates/jsbasic.png';
+import rd from './Certificates/rd.jpg';
 
 
 class Certifications extends React.Component {
@@ -22,6 +27,9 @@ class Certifications extends React.Component {
        if (this.state.image==='a'){ return WD}
         else if( this.state.image==='b'){return Py}
         else if(this.state.image==='c'){return ML}
+        else if(this.state.image==='e'){return rd}
+        else if(this.state.image==='f'){return pybasic}
+        else if(this.state.image==='g'){return jsbasic}
         else {return Algo}}
     render() {
         if(!this.state.image) { 
@@ -54,9 +62,11 @@ class Certifications extends React.Component {
                 </div>
                 
 
-                    <div style={{width:'100%',margin:'0 auto',position:'absolute',
-                    top:'50%',transform: 'translateY(-50%)',display:'flex',flexDirection:'row',
+                    <div style={{width:'100%',margin:'0 auto',position:'absolute',marginTop:'10vh',display:'flex',flexDirection:'row',
                     flexWrap:'wrap' ,justifyContent:'space-evenly',alignContent:'center', fontSize:'3vmin'}}>
+                     <div className=' pointer white certificate pa2 br3' onClick={()=>this.imageOpen('e')} ><img src={fcc}  alt='' width='40vmax'/><p><strong>Responsive Web Design</strong></p><p className=' blue link dim'>View Certificate</p></div>
+                     <div className=' pointer white certificate pa2 br3' onClick={()=>this.imageOpen('f')} ><img src={hr}  alt='' width='40vmax'/><p><strong>Python (Basic)</strong></p><p className=' blue link dim'>View Certificate</p></div>
+                     <div className=' pointer white certificate pa2 br3' onClick={()=>this.imageOpen('g')} ><img src={hr}  alt='' width='40vmax'/><p><strong>JavaScript (Basic)</strong></p><p className=' blue link dim'>View Certificate</p></div>
                         <div className=' pointer white certificate pa2 br3' onClick={()=>this.imageOpen('a')} ><img src={udemy}  alt='' width='40vmax'/><p><strong>The Complete Web Developer in 2020: Zero to Mastery</strong></p><p className=' blue link dim'>View Certificate</p></div>
                         <div className=' pointer white certificate pa2 br3' onClick={()=>this.imageOpen('b')}><img src={udemy} alt='' width='40vmax'/><p><strong>Complete Python Developer in 2020: Zero to Mastery</strong></p><p className='blue link dim'>View Certificate</p></div>
                         <div className=' white pointer certificate pa2 br3' onClick={()=>this.imageOpen('c')}><img src={udemy} alt='' width='40vmax'/><p><strong>Complete Machine Learning and Data Science: Zero to Mastery</strong></p><p className='blue link dim'>View Certificate</p></div>
