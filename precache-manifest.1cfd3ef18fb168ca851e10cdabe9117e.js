@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c86f1a9bb8d9a2c89925b6698f3330a",
+    "revision": "b81b91eacf572465b722be87a97203ab",
     "url": "/portfo/index.html"
   },
   {
-    "revision": "926f84b3184c1a15718d",
+    "revision": "1ba6fcb8e65cf8137148",
     "url": "/portfo/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "a911c220778e6e3551ca",
-    "url": "/portfo/static/css/main.0398dc86.chunk.css"
+    "revision": "4cee2d88ab6eb16a5432",
+    "url": "/portfo/static/css/main.788a10ab.chunk.css"
   },
   {
-    "revision": "926f84b3184c1a15718d",
-    "url": "/portfo/static/js/2.a59e2606.chunk.js"
+    "revision": "1ba6fcb8e65cf8137148",
+    "url": "/portfo/static/js/2.3dc78d35.chunk.js"
   },
   {
-    "revision": "94fea9ee6c19b2c19c4bc067c05a6f6e",
-    "url": "/portfo/static/js/2.a59e2606.chunk.js.LICENSE.txt"
+    "revision": "23d9eae7cbf55a23e38870cb27d85591",
+    "url": "/portfo/static/js/2.3dc78d35.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a911c220778e6e3551ca",
-    "url": "/portfo/static/js/main.023542e4.chunk.js"
+    "revision": "4cee2d88ab6eb16a5432",
+    "url": "/portfo/static/js/main.354b31a9.chunk.js"
   },
   {
     "revision": "045e57d21fedfd840c9a",
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfo/static/media/email.2c1a7560.png"
   },
   {
+    "revision": "e6a1f97f52d12e23da2983a2a335ef65",
+    "url": "/portfo/static/media/fcc.e6a1f97f.png"
+  },
+  {
     "revision": "7f14ed9911f7ee249e1273e1b9a2017b",
     "url": "/portfo/static/media/flask.7f14ed99.png"
   },
@@ -82,6 +86,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8e69ed0705cd96f6f147e123612ae05",
     "url": "/portfo/static/media/instagram.e8e69ed0.png"
+  },
+  {
+    "revision": "a58728919c10c74e25a9b656c478f730",
+    "url": "/portfo/static/media/jquery.a5872891.png"
+  },
+  {
+    "revision": "4b833bd7d7dc204a8d07331d7292fed6",
+    "url": "/portfo/static/media/jsbasic.4b833bd7.png"
   },
   {
     "revision": "3f52a778db4b741e7773eb753565a1f6",
@@ -108,8 +120,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfo/static/media/password.4309adfd.jpg"
   },
   {
+    "revision": "4eaa99888797855c68ff0fa42253480d",
+    "url": "/portfo/static/media/pybasic.4eaa9988.png"
+  },
+  {
     "revision": "98c709f25fb37821ac0fd06fd728984e",
     "url": "/portfo/static/media/python-proj.98c709f2.jpg"
+  },
+  {
+    "revision": "7a3cc0f5f18cdca2dae12a79942f39f9",
+    "url": "/portfo/static/media/rd.7a3cc0f5.jpg"
   },
   {
     "revision": "70f87bba34487dc1c0cb8916d800c63b",
