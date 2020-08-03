@@ -54,7 +54,7 @@
 .navitems {
   font-stretch: condensed;
   font-family: 'Nunito', sans-serif; 
-/*   text-decoration: underline; */
+  text-decoration: underline;
   /* background-color: #29b6fc; */
   color: rgb(59, 59, 59);
   padding: 5px;
@@ -116,7 +116,6 @@
      font-size: 3.5vmin;
      z-index: 1000;
      animation: slideOut 0.5s linear;
-     display: none;
   
   }
   @keyframes slideOut {
