@@ -54,7 +54,7 @@
 .navitems {
   font-stretch: condensed;
   font-family: 'Nunito', sans-serif; 
-  text-decoration: underline;
+  /* text-decoration: underline; */
   /* background-color: #29b6fc; */
   color: rgb(59, 59, 59);
   padding: 5px;
@@ -77,6 +77,7 @@
 
 @media only screen and (max-width: 900px) {
   .navout {
+    border: 2px solid rgb(134, 209, 250);
     background-color: rgb(41, 182, 252);
     font-weight: 800;
     padding-top: 50px;
@@ -92,14 +93,13 @@
      justify-content: space-between;
      font-size: 3.5vmin;
      z-index: 1000;
-     animation: slideIn 0.5s linear;
+     animation: slideIn 0.1s linear;
   }
   @keyframes slideIn {
     0% {right: -60vw;}
     100% {right: 0;}
   }
   .nav {
-    
     background-color: rgb(41, 182, 252);
     font-weight: 800;
     padding-top: 50px;
@@ -116,11 +116,11 @@
      font-size: 3.5vmin;
      z-index: 1000;
      animation: slideOut 0.5s linear;
-  
+     display: none;
   }
   @keyframes slideOut {
-    0% {right: 0vw;}
-    100% {right: -60vw;}
+    0% {right: 0vw; display: flex;}
+    100% {right: -60vw;display: none;}
   }
   .menu {
     width: 30px;
@@ -179,9 +179,13 @@ z-index: -1;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-
- height: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+ height: 90vh;
   width: 70%;
+  z-index: 1000;
+  /* overflow: hidden; */
 }
 .projim {
   /* border: 5px solid gray; */
